@@ -1,28 +1,6 @@
 
 # scripts/__init__.py
 
-# # Importing functions from various scripts so they are available when the package is imported
-# from .Conversion import *                 # Import all functions from Conversion.py
-# from .CleanNameFile import *              # Import all functions from CleanNameFile.py
-# from .Headername_extraction import *      # Import all functions from Headername_extraction.py
-# from .Process_cleanheader import *        # Import all functions from Process_cleanheader.py
-# from .Compared_name import *              # Import all functions from Compared_name.py
-# from .Email import *                      # Import all functions from Email.py
-# from .Phone_number import *               # Import all functions from Phone_number.py
-# from .combine_outputs import *            # Import the combine function from combine_outputs.py
-
-# # Optional: Initialize logging setup, versioning, etc.
-# import logging
-
-# # Set up basic logging for the package
-# logging.basicConfig(level=logging.INFO)
-# logger = logging.getLogger(__name__)
-
-# # Versioning (optional)
-# __version__ = '1.0.0'
-
-# # Optional: Any other initialization code (e.g., data loading, settings, etc.)
-
 
 import os
 from PIL import Image
