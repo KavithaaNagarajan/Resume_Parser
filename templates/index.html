@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Uploader</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1>Upload Your Files</h1>
+        <form action="/upload" method="POST" enctype="multipart/form-data">
+            <label for="file">Choose files (PDF, DOC, DOCX):</label>
+            <input type="file" name="file" id="file" multiple><br><br>
+            <button type="submit" class="btn btn-primary">Upload Files</button>
+        </form>
+
+        <h3 class="mt-5">Processed Files</h3>
+        <ul>
+            <li><a href="{{ url_for('view_csv', filename='Compare_exp.csv') }}">View Compare_exp.csv</a> | <a href="{{ url_for('download_csv', filename='Compare_exp.csv') }}">Download</a></li>
+            <li><a href="{{ url_for('view_csv', filename='overall_Details.csv') }}">View overall_Details.csv</a> | <a href="{{ url_for('download_csv', filename='overall_Details.csv') }}">Download</a></li>
+            <li><a href="{{ url_for('view_csv', filename='Skill_match_results.csv') }}">View Skill_match_results.csv</a> | <a href="{{ url_for('download_csv', filename='Skill_match_results.csv') }}">Download</a></li>
+        </ul>
+    </div>
+</body>
+</html>
