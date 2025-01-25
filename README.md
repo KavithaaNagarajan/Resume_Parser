@@ -1,9 +1,9 @@
 # Resume_Parser
 This project provides a resume parsing solution that extracts key details from resumes in various file formats such as image, PDF, DOCX, and DOC files. The parsed data includes the name, contact details (email, phone number), degree, and objective-based experience extraction.
 
-Features
-Extract Name: Automatically extracts the candidate's name from the filename.
-Header and First Page Extraction: Extracts header information and the first page content for parsing.
+# Features
+# Extract Name: Automatically extracts the candidate's name from the filename.
+# Header and First Page Extraction: Extracts header information and the first page content for parsing.
 Email Extraction: Detects and extracts email addresses from the resume.
 Phone Number Extraction: Detects and extracts phone numbers from the resume.
 Degree Extraction: Extracts degree-related information (e.g., Bachelor, Master, PhD) from the resume.
